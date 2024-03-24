@@ -5,31 +5,32 @@ h1 {
     font-size: 2rem;
     padding: 1em;
 } */
-p {
-    font-size: 1.20em;
-    width: 10vp;
-}
 
 
-.container {
-    border: 2px outset rgb(37, 43, 129) ;
-    margin: 1.5em;
-    font-size: 1.5rem;
-    text-align: center;
+body {
     padding: 1.5em;
-    outline: 5px solid blanchedalmond;
-    outline-offset: 5px;
+    font-size: 1.5rem;
+}
+
+p {
+    /* text-decoration:underline; */
+    /* text-transform: capitalize; */
+    text-align: justify;
+    text-indent: 1.7em;
+    /* letter-spacing: 0.11em; */
+    font-weight: 500;
+    word-spacing: 3px;
+    font-style: italic;
 }
 
 
-.circle {
-    background-color: goldenrod;
-    border: 10px;
-    width: 100px;
-    height: 100px;
-    border-style: solid;
-    border-radius:  40px;
-    outline-offset: 3px;
-    outline: 4px solid red;
-    
+a {
+    cursor: pointer;
+    color: rgb(40, 181, 134);
+
 }
+
+a:hover {
+    color: burlywood;
+}
+
