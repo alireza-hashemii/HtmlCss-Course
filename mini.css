@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+nav {
+    border: solid rgb(66, 66, 66);
+    border-radius: 2rem;
+    margin:0 auto 1rem ;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+
+nav h2 {
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-top: 1px solid rgb(66, 66, 66);
+}
+
+li a {
+    display: block;
+}
+
+
+li a,
+li a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+li a:focus , 
+li a:hover {
+    background-color: #333;
+    color: whitesmoke;
+
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
