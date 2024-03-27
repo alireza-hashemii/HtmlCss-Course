@@ -1,0 +1,22 @@
+body {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.columns {
+    column-count: 4;
+    column-rule: 3px solid black;
+    column-width: 200px;
+    column-gap: 3rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2{
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid black;
+    break-inside: avoid;
+}
