@@ -1,0 +1,26 @@
+body { 
+    font-size: 1.25rem;
+}
+
+.block {
+    background-color: black;
+    width: 30vw;
+    height: 30vw;
+    color: antiquewhite;
+    margin-right: 1rem;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: right;
+}
+
+section {
+    background-color: bisque;
+    padding: 2rem;
+    border: 2px solid black;
+ 
+}
